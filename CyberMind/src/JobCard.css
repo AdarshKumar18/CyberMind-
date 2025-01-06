@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.job-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-gap: 20px; /* Spacing between cards */
+}
+.job-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 50%;
+  height: auto;
+  /* transform: scale(0.3); */
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-info {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.info-item {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.info-item i {
+  margin-right: 5px;
+}
+
+.job-description {
+  margin-bottom: 20px;
+}
+
+.job-description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.job-description li {
+  margin-bottom: 5px;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%; /* Make the button occupy the full width of its container */
+  vertical-align: bottom;
+}
+
+.posted-time {
+  background-color: #007bff; /* Match button color */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px; 
+  font-size: 12px;
+}
