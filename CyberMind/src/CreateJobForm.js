@@ -5,13 +5,7 @@ import { getFirestore, collection, addDoc } from 'firebase/firestore';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDzoybWlluqFPrBS_Aee9xBLqgeq-kPMAM",
-  authDomain: "myproject-d0ce7.firebaseapp.com",
-  projectId: "myproject-d0ce7",
-  storageBucket: "myproject-d0ce7.firebasestorage.app",
-  messagingSenderId: "960137876919",
-  appId: "1:960137876919:web:f77d60711dcb8b4d19c432",
-  measurementId: "G-XYYVE5H3GJ",
+ //write your config
 };
 
 // Initialize Firebase and Firestore
